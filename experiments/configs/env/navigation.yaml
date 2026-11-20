@@ -1,0 +1,21 @@
+type: navigation
+
+model_free_observation_space: image
+model_free_action_space: continuous
+
+max_steps: 100
+
+distance_to_goal_scaling_factor: 250
+
+scaling_factor: 10
+
+max_planning_budget: 1000
+plan_continue_coef: 2
+
+room_size: 20
+robot_size: 1
+num_rooms: 5
+
+short_plan_horizon: 5
+medium_plan_horizon: 10
+long_plan_horizon: 15

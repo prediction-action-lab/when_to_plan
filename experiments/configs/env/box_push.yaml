@@ -1,0 +1,17 @@
+type: box_push
+
+model_free_observation_space: tensor
+model_free_action_space: discrete
+
+max_steps: 100
+
+distance_to_goal_scaling_factor: 100
+
+scaling_factor: 1
+
+max_planning_budget: 2000
+plan_continue_coef: 2
+
+short_plan_horizon: 5
+medium_plan_horizon: 10
+long_plan_horizon: 15

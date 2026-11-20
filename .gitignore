@@ -1,0 +1,15 @@
+.venv/
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Model weights and run outputs
+*.pt
+*.pth
+*.zip
+outputs/
+runs/
+
+# Local cluster scripts
+cluster/

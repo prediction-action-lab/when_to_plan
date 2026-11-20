@@ -1,0 +1,10 @@
+experiment: default
+
+
+rewards:
+   plan: -15
+   act: -1
+   clear_plan: -1
+
+logging: True
+

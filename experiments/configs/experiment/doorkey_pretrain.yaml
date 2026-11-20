@@ -1,0 +1,10 @@
+experiment: pretrain
+logging: True
+
+rewards:
+   plan: -20
+   act: -1
+   clear_plan: -1
+
+num_cached_tasks: 20
+num_pretrained_tasks: 10

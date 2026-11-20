@@ -1,0 +1,15 @@
+experiment: default
+
+planner: astar
+action_stochasticity: 0.0
+goal_stochasticity: 0.0
+
+num_cached_tasks: 10
+max_reset_positions: 10
+
+rewards:
+   plan: -15
+   act: -1
+   clear_plan: -1
+
+logging: True

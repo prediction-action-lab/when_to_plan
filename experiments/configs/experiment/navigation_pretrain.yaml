@@ -1,0 +1,12 @@
+experiment: pretrain
+logging: True
+
+rewards:
+   plan: -1
+   act: -1
+   clear_plan: -1
+
+plan_cost_scaling_factor: 0.5
+
+num_cached_tasks: 20
+num_pretrained_tasks: 10

@@ -1,0 +1,15 @@
+experiment: joint_training
+joint_training: True
+logging: True
+
+rewards:
+   plan: -20
+   act: -1
+   clear_plan: -1
+
+num_cached_tasks: 20
+num_pretrained_tasks: 10
+
+max_reset_positions: 10
+
+replay_buffer_size: 10000

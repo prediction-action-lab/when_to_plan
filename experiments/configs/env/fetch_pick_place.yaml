@@ -1,0 +1,27 @@
+type: fetch_pick_place
+
+model_free_observation_space: image
+model_free_action_space: continuous
+
+max_steps: 100
+
+distance_to_goal_scaling_factor: 10
+
+# Planning horizons for different plan lengths
+short_plan_horizon: 5
+medium_plan_horizon: 10
+long_plan_horizon: 15
+
+max_planning_budget: 1000
+
+# Environment-specific parameters
+reward_type: sparse
+n_substeps: 5
+
+# Image observation parameters
+image_size: 128
+img_height: 84
+img_width: 84
+use_grayscale: false  # Set to true for single-channel grayscale
+
+normalize_actions: false

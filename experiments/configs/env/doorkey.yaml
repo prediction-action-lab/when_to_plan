@@ -1,0 +1,17 @@
+type: doorkey
+
+model_free_observation_space: discrete
+model_free_action_space: tensor
+
+max_steps: 100
+
+distance_to_goal_scaling_factor: 100
+
+scaling_factor: 10
+
+max_planning_budget: 2000
+plan_continue_coef: 2
+
+short_plan_horizon: 4
+medium_plan_horizon: 8
+long_plan_horizon: 12

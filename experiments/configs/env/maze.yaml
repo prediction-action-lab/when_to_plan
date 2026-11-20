@@ -1,0 +1,21 @@
+type: maze
+
+model_free_observation_space: image
+model_free_action_space: discrete
+
+max_steps: 100
+
+distance_to_goal_scaling_factor: 50
+
+task_type: medium
+map_size: 20
+
+obstacle_probability: 0.2
+scaling_factor: 10
+
+max_planning_budget: 1000
+plan_continue_coef: 2
+
+short_plan_horizon: 2
+medium_plan_horizon: 4
+long_plan_horizon: 6
